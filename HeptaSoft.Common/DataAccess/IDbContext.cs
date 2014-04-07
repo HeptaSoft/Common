@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 
-namespace HeptaSoft.Common
+namespace HeptaSoft.Common.DataAccess
 {
     /// <summary>
     /// A facade interface for the DbContext (for mock-ability).

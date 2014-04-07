@@ -1,4 +1,6 @@
-﻿namespace HeptaSoft.Common.Modularity
+﻿using Microsoft.Practices.Prism.Modularity;
+
+namespace HeptaSoft.Common.Modularity
 {
     public abstract class ModuleBase : IModule
     {

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using HeptaSoft.Common.DataAccess;
 
-namespace HeptaSoft.Common
+namespace HeptaSoft.Common.UnitOfWork
 {
     /// <summary>
     /// Unit of work implementation.

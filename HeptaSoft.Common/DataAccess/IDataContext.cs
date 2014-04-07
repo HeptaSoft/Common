@@ -1,5 +1,5 @@
 ﻿
-namespace HeptaSoft.Common
+namespace HeptaSoft.Common.DataAccess
 {
     public interface IDataContext : IDbContext
     {

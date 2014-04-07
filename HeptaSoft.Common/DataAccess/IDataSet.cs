@@ -1,4 +1,4 @@
-﻿namespace HeptaSoft.Common
+﻿namespace HeptaSoft.Common.DataAccess
 {
     public interface IDataSet<T>
     {

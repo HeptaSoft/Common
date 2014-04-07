@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using HeptaSoft.Common.Helpers;
 
-namespace HeptaSoft.Common
+namespace HeptaSoft.Common.DataAccess
 {
     /// <summary>
     /// The base of every repository.
@@ -125,12 +125,12 @@ namespace HeptaSoft.Common
         /// <returns></returns>
         private IDbContext GetCurrentContext()
         {
-            if (UnitOfWork.Current == null)
+            if (UnitOfWork.UnitOfWork.Current == null)
             {
                 throw new InvalidOperationException("When a db context is needed, a UoW should already be in place. Currently there is no UoW.");
             }
 
-            return UnitOfWork.Current.GetContext(this.contextFactory);
+            return UnitOfWork.UnitOfWork.Current.GetContext(this.contextFactory);
         }
 
         /// <summary>

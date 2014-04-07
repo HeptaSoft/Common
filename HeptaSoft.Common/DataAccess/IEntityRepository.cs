@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace HeptaSoft.Common
+namespace HeptaSoft.Common.DataAccess
 {
     /// <summary>
     /// The IEntityRepository interface. 

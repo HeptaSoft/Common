@@ -4,7 +4,7 @@ using Microsoft.Practices.Unity;
 
 namespace HeptaSoft.Common.Modularity
 {
-    public class Bootstrapper
+    public class FlexBootstrapper
     {
         private readonly UnityBootstrapperWrapper underlyingBootstrapper;
 
@@ -18,12 +18,12 @@ namespace HeptaSoft.Common.Modularity
         public EventHandler ModulesStarted;
         public EventHandler ModulesStopped;
 
-        public Bootstrapper(string moduleDirectoryPath)
+        public FlexBootstrapper(string moduleDirectoryPath)
             : this(new DirectoryModuleCatalog() { ModulePath = moduleDirectoryPath })
         {
         }
 
-        public Bootstrapper(IModuleCatalog moduleCatalog)
+        public FlexBootstrapper(IModuleCatalog moduleCatalog)
         {
             this.modules = new ModuleList();
             this.injector = new DependencyContainer();

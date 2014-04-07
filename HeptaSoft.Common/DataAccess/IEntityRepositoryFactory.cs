@@ -1,6 +1,6 @@
 using System;
 
-namespace HeptaSoft.Common.Factories
+namespace HeptaSoft.Common.DataAccess
 {
     internal interface IEntityRepositoryFactory<TEntityData> where TEntityData:class 
     {
