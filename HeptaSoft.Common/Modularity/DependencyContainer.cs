@@ -4,7 +4,7 @@ using Microsoft.Practices.Unity;
 
 namespace HeptaSoft.Common.Modularity
 {
-    internal class DependencyContainer : UnityContainer, IFunctionalityRegistrator, IFunctionalityResolver
+    public class DependencyContainer : UnityContainer, IFunctionalityRegistrator, IFunctionalityResolver
     {
         private readonly UnityContainer self;
 

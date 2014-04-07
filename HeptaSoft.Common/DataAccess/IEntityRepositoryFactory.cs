@@ -2,7 +2,7 @@ using System;
 
 namespace HeptaSoft.Common.DataAccess
 {
-    internal interface IEntityRepositoryFactory<TEntityData> where TEntityData:class 
+    public interface IEntityRepositoryFactory<TEntityData> where TEntityData:class 
     {
         /// <summary>
         /// Creates an entity repository.
