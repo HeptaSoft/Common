@@ -1,4 +1,4 @@
 Common
 ======
 
-A collection of helpers, converters, etc from HeptaSoft.
+A collection of common code (helpers, converters, etc) from HeptaSoft.
