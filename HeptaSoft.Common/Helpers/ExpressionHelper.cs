@@ -3,6 +3,9 @@ using System.Linq.Expressions;
 
 namespace HeptaSoft.Common.Helpers
 {
+    /// <summary>
+    /// Expression Helper class.
+    /// </summary>
     public class ExpressionHelper
     {
         #region Visitor

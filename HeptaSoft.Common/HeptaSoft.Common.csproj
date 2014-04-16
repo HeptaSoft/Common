@@ -59,6 +59,7 @@
     <Compile Include="DataAccess\IDbContext.cs" />
     <Compile Include="DataAccess\IEntityRepository.cs" />
     <Compile Include="DataAccess\IEntityRepositoryFactory.cs" />
+    <Compile Include="Helpers\EnumHelper.cs" />
     <Compile Include="Helpers\ExpressionHelper.cs" />
     <Compile Include="Helpers\HashHelper.cs" />
     <Compile Include="Helpers\ReflectionHelper.cs" />

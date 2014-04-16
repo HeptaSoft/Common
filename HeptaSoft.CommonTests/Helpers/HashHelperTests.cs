@@ -5,12 +5,13 @@ namespace HeptaSoft.CommonTests.Helpers
 {
     [TestClass]
     public class HashHelperTests
-    {        
+    {
         /// <summary>
         /// Computes the sha256 hash and expects a correct output.
         /// Correct hash taken from online application http://www.xorbin.com/tools/sha256-hash-calculator
         /// </summary>
         [TestMethod]
+        [Description("Computes the sha256 hash and expects a correct output")]
         public void ComputeSha256Hash_ExpectedOutput_Test1()
         {
             // Arrange
@@ -29,6 +30,7 @@ namespace HeptaSoft.CommonTests.Helpers
         /// Correct hash and sentence taken from wiki: https://en.wikipedia.org/wiki/SHA-2
         /// </summary>
         [TestMethod]
+        [Description("Computes the sha256 hash and expects a correct output")]
         public void ComputeSha256Hash_ExpectedOutput_Test2()
         {
             // Arrange
@@ -47,6 +49,7 @@ namespace HeptaSoft.CommonTests.Helpers
         /// Correct hash and sentence taken from wiki: https://en.wikipedia.org/wiki/SHA-2
         /// </summary>
         [TestMethod]
+        [Description("Computes the sha256 hash and expects a correct output")]
         public void ComputeSha256Hash_ExpectedOutput_Test3()
         {
             // Arrange

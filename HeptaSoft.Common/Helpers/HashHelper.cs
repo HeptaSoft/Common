@@ -4,8 +4,16 @@ using System.Text;
 
 namespace HeptaSoft.Common.Helpers
 {
-    public class HashHelper
+    /// <summary>
+    /// Hash Helper class
+    /// </summary>
+    public static class HashHelper
     {
+        /// <summary>
+        /// Computes a sha256 hash from the input text.
+        /// </summary>
+        /// <param name="input">The input text.</param>
+        /// <returns>The sha256 hash string.</returns>
         public static string ComputeSha256Hash(string input)
         {
             byte[] hashBuffer = new SHA256Managed().ComputeHash(Encoding.UTF8.GetBytes(input));

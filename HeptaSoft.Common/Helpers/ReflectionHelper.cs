@@ -6,7 +6,10 @@ using System.Reflection;
 
 namespace HeptaSoft.Common.Helpers
 {
-    public class ReflectionHelper
+    /// <summary>
+    /// Reflecion Helper class.
+    /// </summary>
+    public static class ReflectionHelper
     {
         public static LambdaExpression GetLambda<TBaseType>(Expression<Func<TBaseType, dynamic>> memberPath)
         {
@@ -32,7 +35,7 @@ namespace HeptaSoft.Common.Helpers
 
         public static PropertyInfo GetPropertyInfo<T>(string propertyName)
         {
-            return typeof (T).GetProperty(propertyName);
+            return typeof(T).GetProperty(propertyName);
         }
 
         public static Type GetPropertyType(Type dtoType, string fieldName)
@@ -113,7 +116,7 @@ namespace HeptaSoft.Common.Helpers
             return null;
         }
 
-        public static Action<T,object> GetPropertySetter<T>(Expression<Func<T, object>> propertyGetter)
+        public static Action<T, object> GetPropertySetter<T>(Expression<Func<T, object>> propertyGetter)
         {
             var member = (MemberExpression)propertyGetter.Body;
             var param = Expression.Parameter(typeof(string), "value");
