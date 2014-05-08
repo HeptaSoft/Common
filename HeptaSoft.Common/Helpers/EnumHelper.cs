@@ -19,7 +19,7 @@ namespace HeptaSoft.Common.Helpers
                 return null;
 
             var array = Enum.GetNames(typeof(T));
-            var list = new List<string>(array);
+            var list = new Collection<string>(array);
             return list;
         }
 
@@ -34,7 +34,7 @@ namespace HeptaSoft.Common.Helpers
                 return null;
 
             var array = (T[])Enum.GetValues(typeof(T));
-            var list = new List<T>(array);
+            var list = new Collection<T>(array);
             return list;
         }
     }
