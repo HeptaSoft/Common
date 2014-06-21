@@ -63,6 +63,7 @@
     <Compile Include="Helpers\ExpressionHelper.cs" />
     <Compile Include="Helpers\HashHelper.cs" />
     <Compile Include="Helpers\ReflectionHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Modularity\DependencyContainer.cs" />
     <Compile Include="Modularity\Bootsrapper.cs" />
     <Compile Include="Modularity\IFunctionalityRegistrator.cs" />
