@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeptaSoft.Common", "HeptaSoft.Common\HeptaSoft.Common.csproj", "{A26872D3-6392-474A-A6A9-089C80E6A570}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeptaSoft.CommonTests", "HeptaSoft.CommonTests\HeptaSoft.CommonTests.csproj", "{ACBEF8F6-AF0C-45F7-BBEA-6A2EFC1A5149}"
